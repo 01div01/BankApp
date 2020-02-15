@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+h1
+{
+	color:#5E001F;
+	text-align: center;
+	border:6px solid #5E001F ;
+	
+	
+}
+header {
+	
+  background-color: #37F5A1;
+  padding: 30px;
+  text-align: center;
+  font-size: 32pt;
+  color: white;
+  
+}
+
+table{
+	font-size:20pt;
+	color:red;
+	 
+}
+body {
+  background-color: red;
+  background: url(sweettexture.jpg);
+}
+

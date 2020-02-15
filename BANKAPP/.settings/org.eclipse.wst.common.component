@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+                
+    
+    
+    <wb-module deploy-name="BANKAPP">
+                                
+        
+        
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                                
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+                                
+        
+        
+        <dependent-module archiveName="ojdbc14.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/div93/Downloads/ojdbc14.jar">
+                                                
+            
+            
+            <dependency-type>uses</dependency-type>
+                                            
+        
+        
+        </dependent-module>
+                        
+        
+        <dependent-module archiveName="javax.mail.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/div93/Downloads/javax.mail.jar">
+                                    
+            
+            <dependency-type>uses</dependency-type>
+                                
+        
+        </dependent-module>
+                
+        <dependent-module archiveName="activation.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/div93/Downloads/activation.jar/activation.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+        <dependent-module archiveName="jstl-1.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/div93/Downloads/jstl-1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                                
+        
+        
+        <property name="context-root" value="BANKAPP"/>
+                                
+        
+        
+        <property name="java-output-path" value="/BANKAPP/build/classes"/>
+                            
+    
+    
+    </wb-module>
+            
+
+
+</project-modules>
